@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    /* font-family: 'Roboto', sans-serif; */
+
+}
+
+.container {
+    width: 80%;
+    /* background-color: red; */
+    margin: 0 auto;
+}
+
+header {
+    padding: 15px;
+    background-color: #23180D;
+}
+
+.zagalovok {
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btninp button {
+    padding: 9px 10px;
+    border-radius: 3px;
+    border: none;
+    background-color:#C52D2F;
+    color: white;
+
+
+}
+.btninp input {
+    width: 110px;
+    padding: 9px 12px ;
+    border-radius: 3px;
+    border: none;
+}
+
+/* blok-2 */
+
+main {
+    padding-top: 50px;
+    background-color: #2D2013;
+    /* height: 3000px; */
+}
+.list ol {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.list ol li {
+    padding:10px;
+    list-style: none;
+}
+.list ol li p {
+    color: #D57D1F;
+    width: 300px;
+    font-size: 17px;
+    text-align: center;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+}
+
+.list ol li p:hover {
+  color: #FDCD88;;
+}
+
+hr {
+    /* padding-bottom: 20px; */
+    height: 3px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.cardIngr {
+    width: 70%;
+    color: #D57D1F;
+
+}
+
+.cardIngr h3:hover {
+    color: #FDCD88;
+
+}
+
+.cardIngr h2 {
+    color: white;
+}
+
+.cardImg {
+    width: 50%;
+    /* padding: 20px; */
+    padding-top : 50px;
+
+}
+
+.cardImg img {
+    width: 75%;
+}
+
+.cardInst {
+    text-align: center;
+    padding: 20px;
+}
+
+.cardInst p {
+    width: 100%;
+    color: white;
+    padding: 20px;
+}
+
+footer {
+    background-color: #2D2013;
+
+}
+
+.abc {
+    text-align: center;
+
+}
+.abc a {
+    font-weight: 400;
+    padding: 0;font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    padding: 10px;
+    color: #D57D1F;
+
+}
+.abc a:hover {
+    color: #FDCD88;
+}
